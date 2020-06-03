@@ -69,6 +69,19 @@ function styleTotal(){
   }
 }
 
+// function clicked(){
+//   var checkedRadioBtn = document.querySelector("input[name='billItemTypeWithSetting']:checked");
+//   if (checkedRadioBtn){
+//   var item = checkedRadioBtn.value;
+  
+  //totalAdd(item);
+//   callCostElem.innerHTML = callCostTotal.toFixed(2);
+//   smsCostElem.innerHTML = smsCostTotal.toFixed(2);
+//   totalCostElemThree.innerHTML = allCostTotal.toFixed(2);
+//   styleTotal(allCostTotal);
+// }
+// }
+//btnAdd.addEventListener("click",clicked);
 
 
 addButton.addEventListener("click", ButtonClicked);
